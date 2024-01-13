@@ -1,0 +1,86 @@
+#HeroCarouselFade.carousel {
+    background: url("../assets/banner-bg.gif");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner-image {
+    position: relative;
+}
+
+.banner-outline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.carousel .carousel-item h2 {
+    color: white;
+    letter-spacing: 3px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    width: auto;
+}
+
+#HeroCarouselFade .carousel-indicators [data-bs-target],
+#FutureOfWorkCarousel .carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
+    background: transparent;
+    border: 1px solid var(--white);
+    box-sizing: border-box;
+    opacity: 1;
+    margin: 0 0.5rem;
+}
+
+#HeroCarouselFade .carousel-indicators button.active {
+    background-color: var(--white);
+}
+
+#FutureOfWorkCarousel .carousel-indicators [data-bs-target] {
+    border-color: var(--qcs-primary);
+}
+
+#FutureOfWorkCarousel .carousel-indicators button.active {
+    background-color: var(--qcs-primary);
+}
+
+.display-5 {
+    font-size: calc(1.425rem + 2.4vw);
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.carousel-item {
+    transition: transform 1s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+    transition: opacity 0.4s 0.4s;
+}
+
+@media (min-width:1024px) {
+    .display-5 {
+        font-size: 3.5rem
+    }
+}
+
+@media (min-width:1200px) {
+    .display-5 {
+        font-size: 3.8rem
+    }
+}
+
+@media screen and (min-width:1367px) {
+    .display-5 {
+        font-size: 4.5rem;
+    }
+}

@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.104.2">
+    <title>QCS</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+    <!-- Custom styles -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/headers.css" rel="stylesheet">
+    <link href="css/heroes.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <main class="case-study-main">
+        <!-- Navbar -->
+        <nav class="qcs-navbar navbar navbar-expand-md navbar-dark bg-dark fixed-top" aria-label="QCS Navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img src="assets/logo.svg" class="img-fluid logo" alt="QCS Logo" /></a>
+
+                <div>
+                    <div class="search-container d-md-none position-relative">
+                        <form action="/search" method="get">
+                            <label class="button searchbutton" for="searchrightDesktop"><i class="bi bi-search"></i></label>
+                            <input class="search textBox" id="searchrightDesktop" type="search" name="search" placeholder="Search">
+                        </form>
+                    </div>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse" id="mainNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-md-4">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Why QCS</a></li>
+                                <li><a class="dropdown-item" href="#">Careers</a></li>
+                                <li><a class="dropdown-item" href="#">Management Team</a></li>
+                                <li><a class="dropdown-item" href="#">Partners</a></li>
+                                <li><a class="dropdown-item" href="#">Offices</a></li>
+                                <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Package Application</a></li>
+                                <li><a class="dropdown-item" href="#">Integration Solution</a></li>
+                                <li><a class="dropdown-item" href="#">Development Solution</a></li>
+                                <li><a class="dropdown-item" href="#">AMS Managed Service</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Insights</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Case studies</a></li>
+                                <li><a class="dropdown-item" href="#">Blogs</a></li>
+                                <li><a class="dropdown-item" href="#">Whitepapers/ Ebooks</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                    <div class="search-container d-none d-md-block position-relative">
+                        <form action="/search" method="get">
+                            <label class="button searchbutton" for="searchrightDesktop"><i class="bi bi-search"></i></label>
+                            <input class="search textBox" id="searchrightDesktop" type="search" name="search" placeholder="Search">
+                        </form>
+                    </div>
+
+                    <div class="ms-md-3 mt-3 mt-md-0">
+                        <button type="button" class="btn btn-primary btn-header">Get in Touch</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Banner image -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 px-0">
+                    <div class="case-study-banner">
+                        <img src="assets/case-study-banner.jpg" alt="Case study banner" class="img-fluid scale-2">
+
+                        <div class="banner-title-content">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h2 class="display-5 text-white fw-bold lh-2 mb-3">
+                                            Revolutionizing MEATIGO
+                                        </h2>
+                                        <h5 class="text-white">
+                                            Transforming Business Operations through Intuitive Mobile and Web application paving the path to grow operations across India
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="share-article-btn">
+                            <i class="bi bi-share-fill"></i>
+                        </button>
+                    
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid share-links hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0"><a href="#"><i class="bi bi-linkedin"></i> Linkedin</a></div>
+                    <div class="col-sm-6 col-lg-3 mb-3 mb-lg-0"><a href="#"><i class="bi bi-twitter"></i> Twitter</a></div>
+                    <div class="col-sm-6 col-lg-3 mb-3 mb-sm-0"><a href="#"><i class="bi bi-facebook"></i> Facebook</a></div>
+                    <div class="col-sm-6 col-lg-3 "><a href="#"><i class="bi bi-envelope-fill"></i> Email</a></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Case Study Content -->
+        <div class="container-fluid bg-silver py-5">
+            <div class="container case-study-highlight">
+                <div class="row mb-4 mb-md-5">
+                    <div class="col-md-12">
+                        <p class="text-uppercase">Highlights</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-10 col-xl-9 highlight-left-primary ps-4 ps-md-5">
+                        <p>Meatigo is a prominent online platform, catering to the discerning preferences of consumers by offering a diverse array of high quality meat products. The leading meat supplier faced significant challenges in its business operations, which primarily managed through disparate systems that Meatigo had no control over. The absence of a comprehensive and integrated mobile and web application hindered its efficiency, data visibility, and customer experience.</p>
+                        
+                        <p>Meatigo switched to modern application developed by Qspear developed specially to improve the prevailing operational model and in turn enhance user experience. This strategy implemented a robust, interactive mobile and web app platform demonstrating QCS’s transformative power of technology in optimizing and integrating business operations for the client.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-4 py-lg-5 position-relative">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-uppercase">In this article</p>
+                </div>
+
+                <div class="col-md-12 offset-minus d-none d-md-block">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#objective" class="article-link">Objective <i class="bi bi-arrow-down-circle float-end"></i></a>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <a href="#approach" class="article-link">Approach <i class="bi bi-arrow-down-circle float-end"></i></a>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <a href="#solution" class="article-link">Solution <i class="bi bi-arrow-down-circle float-end"></i></a>
+                        </div>
+        
+                        <div class="col-md-6">
+                            <a href="#impact" class="article-link">Impact <i class="bi bi-arrow-down-circle float-end"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <nav id="case-study-topics" class="navbar navbar-light bg-light px-3 case-study-topics">
+                    <ul class="nav nav-pills mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#objective">Objective</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#approach">Approach</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#solution">Solution</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#impact">Impact</a>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="case-study-content">
+                    <div class="col-md-12 py-3 py-lg-4" id="objective">
+                        <h4 class="text-uppercase">Objectives/Opportunities</h4>
+                        <p>As Meatigo grew larger, the company's expansion brought about increased demands and complexities that needed to be addressed to sustain its growth trajectory and maintain a competitive edge in the market. Some of the business challenges included.</p>
+                        
+                        <p><i>Lack of Scalability for Integrating New Features</i> - As the business grew and evolved, the application's existing infrastructure was not equipped to handle the growing complexity and scale of the business. The application had significant limitations, making it nearly impossible to incorporate new features.</p>
+                        
+                        <p><i>Automating Delivery Planning through Integration</i> - Meatigo faced the challenge in optimizing delivery routes, efficiently allocating delivery resources, and accurately estimating delivery times. The application lacked to offer real-time visibility into the delivery status for both Meatigo and its end customers. The time-consuming, labor-intensive, and error-prone approach of manual delivery would lead to delays, higher operational costs, and inaccurate or unreliable delivery estimates.</p>
+
+                        <p><i>Creating a Comprehensive, Interactive, and User-Friendly App Platform with Integrated Operations</i> -  The app platform lacked connectivity for all business operations and suffered from a non-interactive and non-user-friendly interface. It hindered seamless communication and collaboration between different departments, and lacked real-time visibility into the overall business processes. Furthermore, the users including Meatigo’s workforce and the customers could not navigate through the app seamlessly, leading to a subpar user experience.</p>
+                    </div>
+
+                    <div class="col-md-12 py-3 py-lg-4" id="approach">
+                        <h4 class="text-uppercase">Approach/Methodology</h4>
+                        <p>QCS initiated the evaluation of the existing application for improved operations and user experience. The analysis led to the following outcomes.</p>
+
+                        <ul>
+                            <li><p>Redesigning and restructuring the application to accommodate more users and handle higher data volumes. Additionally, allowing developers to easily integrate new features and modules without major disruptions to the existing system.</p></li>
+
+                            <li><p>Re-architecting parts of the application, refactoring the codebase to improve modularity, or adopting modern development practices that facilitate the addition of new features.</p></li>
+
+                            <li><p>Implementing an automated delivery planning system extending to real time delivery updates that seamlessly integrated with the existing operations.</p></li>
+
+                            <li><p>Developing comprehensive application that integrated all business operations, ensuring a centralized and synchronized system.</p></li>
+
+                            <li><p>Leverage QCS’s cloud and modern open source technology expertise to implement a robust, scalable, redundant, cost effective solution to address the prevailing business challenges.</p></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-12 py-3 py-lg-4" id="solution">
+                        <h4 class="text-uppercase">Solution</h4>
+                        <p>The development team conducted in-depth user research to understand the client’s preferences and pain points. The portal's design and flow were tailored to meet the needs of the target audience, ensuring a user-friendly experience.</p>
+
+                        <h6>Technology Stack</h6>
+                        <p>ReactJS was chosen for the frontend owing to its interactive capabilities and component-based architecture. Spring Boot, with its efficient RESTful API development, served as the backend to handle requests and integrate with other systems. DynamoDB was selected as the NoSQL database to store and retrieve customer data securely.</p>
+
+                        <h6>Interactive Delivery Tracking</h6>
+                        <p>A robust logistics management system, was integrated into the application, enabling real-time tracking of orders and providing customers with updates at each stage of the delivery process. This included order confirmation, packing, despatch, and delivery. Customers could access the real-time location of their delivery, estimated arrival time, and status updates. Interactive alerts were implemented to keep users informed about any changes or delays in delivery.</p>
+
+                        <h6>Integration with Various Facilitator Systems</h6>
+                        <p>The integration included systems like Locus for logistics management, Calc analysis for data analytics, Google Maps for location services, Clevertap for customer engagement, Omni Docs for document management, Freshdesk for customer support, and the like. The integration of facilitator systems streamlined various workflows within Meatigo. Real-time data enabled better route planning, reduced delivery times, and improved resource allocation.</p>
+
+                        <h6>Robust Reporting & Analytics for Enhanced Process Visibility</h6>
+                        <p>With QCS, Meatigo gained full visibility of their processes. The real-time dashboards, customized reports, and data visualization tools provided deep insights into key performance indicators (KPIs) and business metrics. Real-time tracking of inventory levels, delivery status, and sales data allowed the client team to make data-driven decisions.</p>
+                    </div>
+
+                    <div class="col-md-12 py-3 py-lg-4" id="impact">
+                        <h4 class="text-uppercase">Impact and Benefits</h4>
+                        <p>The solution provided by QCS illustrated how technology can alter business activities for MEATIGO while also optimizing and integrating them. A strong, interactive mobile and online application was successfully implemented, creating a model for other organizations in the sector and paving the way for increased productivity, client happiness, and overall growth. Within 6 months of launch of the applications, the App ratings touched all time high giving confidence to Meatigo management to embark on Pan India launch.</p>
+
+                        <p>The transformation of the existing application into a more flexible and extensible system facilitated the client to respond more effectively to changing market demands, stay competitive, and enhance the overall user experience. Moreover, it highlighted the importance of maintaining a forward-looking approach in modern app development to avoid being limited by the constraints of legacy systems.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer py-5 bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <a href="index.html"><img src="assets/logo-white.svg" alt="Footer logo" class="img-fluid" /></a>
+                    </div>
+                    <div class="col-md-9 align-self-end border-top offset-md-3 mt-4">
+                        <div class="row mt-4">
+                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <h5>Services</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Dedicated Teams</a></li>
+                                    <li><a href="#">Product Strategy</a></li>
+                                    <li><a href="#">Product Engineering</a></li>
+                                    <li><a href="#">Architecture</a></li>
+                                    <li><a href="#">UX / UI Design</a></li>
+                                    <li><a href="#">App Developers</a></li>
+                                    <li><a href="#">QA & Testing</a></li>
+                                    <li><a href="#">Cyber Security</a></li>
+                                    <li><a href="#">Web Development</a></li>
+                                    <li><a href="#">Custom Software Development</a></li>
+                                    <li><a href="#">Outsourcing Software Development Services</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-sm-6 col-md-4 mb-3 mb-md-0">
+                                <h5>Technology</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Internet Things</a></li>
+                                    <li><a href="#">Blockchain</a></li>
+                                    <li><a href="#">Cloud Computing</a></li>
+                                </ul>
+
+                                <h5 class="mt-3 mt-md-4">Platform</h5>
+                                <ul class="list-unstyled">
+                                    <li><a href="#">iOS</a></li>
+                                    <li><a href="#">Android</a></li>
+                                    <li><a href="#">Windows</a></li>
+                                    <li><a href="#">Hybrid Platform</a></li>
+                                    <li><a href="#">Azure</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-4 mb-3 mb-md-0">
+                                <div class="row">
+                                    <div class="col-sm-6 col-md-12">
+                                        <h5>Company</h5>
+                                        <ul class="list-unstyled">
+                                            <li><a href="#">About</a></li>
+                                            <li><a href="#">Team</a></li>
+                                            <li><a href="#">Careers</a></li>
+                                            <li><a href="#">Clients</a></li>
+                                            <li><a href="#">Blog</a></li>
+                                            <li><a href="#">News</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-sm-6 col-md-12">
+                                        <h5 class="mt-3 mt-md-4">Contacts</h5>
+                                        <ul class="list-unstyled">
+                                            <li><a href="mailto:info@intellectsoft.net">info@intellectsoft.net</a></li>
+                                            <li><a href="#">+1 855 TOP DEVS</a></li>
+                                            <li><a href="tel:+16503004335">+1 650 300 4335</a></li>
+                                            <li><a href="tel:+442038870078">+44 20 3887 0078</a></li>
+                                            <li><a href="#">More Contacts</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script src="js/searchbar.js"></script>
+
+    <script>
+        $( window ).on( "load", function() {
+            setTimeout(function() {
+            $(".case-study-banner .img-fluid").removeClass("scale-2");}, 800);
+        });
+    </script>
+
+
+    <script>
+        jQuery(window).on("scroll", onScroll);
+
+        function onScroll(event) {
+        var scrollPos = jQuery(document).scrollTop();
+        jQuery("#case-study-topics a").each(function () {
+            var currLink = jQuery(this);
+            var refElement = jQuery(currLink.attr("href"));
+            if (
+            refElement.offset().top - 200 <= scrollPos &&
+            refElement.offset().top + refElement.height() > scrollPos
+            ) {
+            jQuery("#case-study-topics ul li a").removeClass("active");
+            currLink.addClass("active");
+            } else {
+            currLink.removeClass("active");
+            }
+        });
+        }
+
+        jQuery(".case-study-topics a").each(function () {
+            jQuery(this).on("click", function (event) {
+                event.preventDefault();
+                var currentId = jQuery(this).attr("href");
+                setTimeout(() => {
+                jQuery("html, body").animate(
+                    {
+                    scrollTop: jQuery(currentId).offset().top - 100
+                    },
+                    0
+                );
+                }, 0);
+            });
+        });
+    </script>
+
+    <script>
+        $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .on('click', function(event) {   
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                // - 70 is the offset/top margin
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top - 100
+                }, 300, function() {
+
+                    // Add hash (#) to URL when done scrolling (default click behavior), without jumping to hash
+                    if (history.pushState) {
+                        history.pushState(null, null, hash); 
+                    } else {
+                        window.location.hash = hash;
+                    } 
+                });
+                return false;    
+            } // End if
+        });
+    </script>
+
+    <!-- hide show share buttons -->
+    <script>
+        $(document).ready(function(){
+            $(".share-article-btn, .share-article-btn-sm").click(function(){
+                $(this).toggleClass("active");
+                $(".share-links").toggleClass("hidden");
+            });
+        });
+    </script>
+
+</body>
+
+</html>
